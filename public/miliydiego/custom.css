@@ -1,1 +1,39 @@
 /****** Helpers ******/
+
+.gift-container {
+    background-color: #ffffff;
+    padding: 0;
+    border-radius: 6px;
+    overflow: hidden;
+    color: #292929;
+
+
+}
+.gift-container p,
+.gift-container h4 {
+    color: #292929;
+}
+
+.gift-picture {
+    width: 100%;
+    height: 180px;
+    background-repeat: no-repeat;
+    
+}
+.gift-1 {
+    background: url('gift1.jpg');
+    background-size: 100%;
+}
+
+.gift-info {
+    padding: 15px;
+}
+.gift-info h4{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.gift-info .price {
+    color: #D6346C;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
