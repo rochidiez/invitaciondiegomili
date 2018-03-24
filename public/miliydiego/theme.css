@@ -3427,8 +3427,7 @@ img {
 .lb-data .lb-close:before,
 .lb-nav a.lb-next:before,
 .lb-nav a.lb-prev:before {
-  content: "\f104";
-  font-family: "Font Awesome 5 Free";
+  content: "";
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -3438,21 +3437,7 @@ img {
   font-size: 24px;
   color: #fff;
 }
-.lb-nav a.lb-next:before,
-.lb-nav a.lb-prev:before {
-  position: absolute;
-  top: 50%;
-  font-size: 32px;
-  margin-top: -16px;
-}
-.lb-nav a.lb-next:before {
-  content: "\f104";
-  right: 16px;
-}
-.lb-nav a.lb-prev:before {
-  content: "\f104";
-  left: 16px;
-}
+
 /*!---------- 25. INTROS ----------*/
 .cover {
   margin: 0;
