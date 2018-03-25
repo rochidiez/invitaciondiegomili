@@ -50,7 +50,9 @@
     height: 260px;
     background-position: center; 
 }
-
+.parallax > .background-image-holder.gift-bg-image {
+    height: 160vh;
+}
 @media all and (max-width: 430px) {
     .hidde-xs {
         display: none;
@@ -58,5 +60,8 @@
     .gift-container {
         margin-right: 15px;
         margin-left: 15px;
+    }
+    .gift-bg-image {
+        height: 100vh;
     }
 }
