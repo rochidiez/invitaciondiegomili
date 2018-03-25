@@ -6,8 +6,9 @@
     border-radius: 6px;
     overflow: hidden;
     color: #292929;
-
-
+    -webkit-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.4);
 }
 .gift-container p,
 .gift-container h4 {
@@ -36,4 +37,17 @@
     color: #D6346C;
     font-size: 18px;
     margin-bottom: 10px;
+}
+
+.btn.btn-filled:hover{
+    border: 2px solid #D6346C;
+    color: #D6346C;
+    background: #ffffff;
+} 
+
+
+@media all and (max-width: 430px) {
+    .hidde-xs {
+        display: none;
+    }
 }

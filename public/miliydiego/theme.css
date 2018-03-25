@@ -422,7 +422,7 @@ p.lead {
     line-height: 24px;
   }
   p {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 a,
@@ -2771,7 +2771,7 @@ form iframe.mail-list-form {
   }
 }
 .page-title-3 {
-  height: 340px;
+  height: 640px;
 }
 .page-title-4 .breadcrumb {
   position: relative;
