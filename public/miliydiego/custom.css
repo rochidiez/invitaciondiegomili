@@ -6,9 +6,9 @@
     border-radius: 6px;
     overflow: hidden;
     color: #292929;
-    -webkit-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.4);
-    box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
 }
 .gift-container p,
 .gift-container h4 {
@@ -23,7 +23,7 @@
 }
 .gift-1 {
     background: url('gift1.jpg');
-    background-size: 100%;
+    background-size: cover;
 }
 
 .gift-info {
@@ -35,19 +35,28 @@
 }
 .gift-info .price {
     color: #D6346C;
-    font-size: 18px;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
-.btn.btn-filled:hover{
+.btn.btn-filled:hover,
+.btn.btn-filled:focus {
     border: 2px solid #D6346C;
     color: #D6346C;
     background: #ffffff;
 } 
 
+.gift-picture-full{
+    height: 260px;
+    background-position: center; 
+}
 
 @media all and (max-width: 430px) {
     .hidde-xs {
         display: none;
+    }
+    .gift-container {
+        margin-right: 15px;
+        margin-left: 15px;
     }
 }
